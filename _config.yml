@@ -20,7 +20,7 @@
 
 title: Jorge Reyes
 email: kwikzodik@gmail.com
-work-email: jr4034@columbia.edu
+work_email: jr4034@columbia.edu
 description: Personal Website
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
