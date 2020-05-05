@@ -1,0 +1,39 @@
+a {
+  color: $brand-color;
+  text-decoration: none;
+
+  &:visited {
+    color: darken($brand-color, 15%);
+  }
+
+  &:hover {
+    color: $text-color;
+    text-decoration: none;
+  }
+
+  .social-media-list &:hover {
+    text-decoration: none;
+
+    .username {
+      text-decoration: none;
+    }
+  }
+}
+
+.site-header, .site-nav, .trigger{
+  background-color:#1d4f91;
+}
+
+.site-nav {
+  z-index: 100;
+}
+.site-title {
+  font-size:30px;
+  font-weight:300;
+}
+
+@media (min-width: 1024px) {
+   .wrapper {
+      max-width:75%;
+   }
+}
